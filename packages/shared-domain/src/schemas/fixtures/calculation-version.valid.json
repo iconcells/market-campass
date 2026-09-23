@@ -1,0 +1,19 @@
+{
+  "calculationSchemaVersion": "1.0.0",
+  "calculationId": "c1c1c1c1-0000-4000-8000-000000000001",
+  "researchJobId": "11000000-0000-4000-8000-000000000001",
+  "accountId": "aaaaaaaa-0000-4000-8000-000000000001",
+  "formulaName": "landed_price_v1",
+  "formulaVersion": "1.0.0",
+  "inputEvidenceIds": [
+    "e1e1e1e1-0000-4000-8000-000000000001"
+  ],
+  "outputMetric": {
+    "type": "landed_price",
+    "value": 84.49,
+    "unit": "USD",
+    "confidence": 0.92
+  },
+  "deterministicMethod": "weighted median of listed unit prices plus estimated standard shipping for product category",
+  "createdAt": "2025-01-10T15:00:00Z"
+}

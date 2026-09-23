@@ -1,0 +1,33 @@
+{
+  "name": "@market-campass/shared-domain",
+  "version": "1.0.0",
+  "description": "Versioned shared-domain schemas for the market research system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --runInBand",
+    "test:unit": "jest --runInBand --testPathPattern=schemas/__tests__",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "roots": ["<rootDir>/src"],
+    "testMatch": ["**/__tests__/**/*.spec.ts"],
+    "moduleNameMapper": {
+      "^@market-campass/shared-domain$": "<rootDir>/src/schemas/index.ts"
+    }
+  }
+}

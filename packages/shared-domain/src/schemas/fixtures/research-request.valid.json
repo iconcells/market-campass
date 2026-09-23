@@ -1,0 +1,10 @@
+{
+  "requestSchemaVersion": "1.0.0",
+  "query": "Logitech MX Master 3 wireless mouse",
+  "country": "US",
+  "currency": "USD",
+  "periodStart": "2024-10-01",
+  "periodEnd": "2025-01-01",
+  "targetPrice": 79.99,
+  "accountId": "aaaaaaaa-0000-4000-8000-000000000001"
+}

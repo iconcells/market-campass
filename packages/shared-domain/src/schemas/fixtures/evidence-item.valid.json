@@ -1,0 +1,26 @@
+{
+  "evidenceSchemaVersion": "1.0.0",
+  "evidenceId": "e1e1e1e1-0000-4000-8000-000000000001",
+  "researchJobId": "11000000-0000-4000-8000-000000000001",
+  "accountId": "aaaaaaaa-0000-4000-8000-000000000001",
+  "source": {
+    "provider": "Amazon SP-API",
+    "url": "https://www.amazon.com/dp/B08C7KG5LP"
+  },
+  "collectedAt": "2025-01-10T14:30:00Z",
+  "geography": {
+    "country": "US",
+    "region": "CA"
+  },
+  "observationPeriod": {
+    "startDate": "2024-10-01",
+    "endDate": "2025-01-01"
+  },
+  "metric": {
+    "name": "unit_price",
+    "value": 79.99,
+    "unit": "USD",
+    "sampleSize": 1
+  },
+  "evidenceType": "price_observation"
+}
