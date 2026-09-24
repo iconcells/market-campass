@@ -1,0 +1,12 @@
+{
+  "reportSchemaVersion": "1.0.0",
+  "versionId": "a0a0a0a0-0000-4000-8000-000000000002",
+  "accountId": "aaaaaaaa-0000-4000-8000-000000000001",
+  "researchJobId": "11000000-0000-4000-8000-000000000001",
+  "status": "completed",
+  "createdAt": "2025-01-10T16:00:00Z",
+  "evidenceIds": [],
+  "calculationVersionIds": [],
+  "confidenceLabel": "high",
+  "missingDataExplanations": []
+}

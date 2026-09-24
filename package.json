@@ -1,0 +1,15 @@
+{
+  "name": "market-campass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Market research and price intelligence web application",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@market-campass/shared-domain",
+    "test": "npm test --workspace=@market-campass/shared-domain",
+    "start": "node packages/shared-domain/dist/server.js",
+    "start:local": "npm run build && node packages/shared-domain/dist/server.js"
+  }
+}

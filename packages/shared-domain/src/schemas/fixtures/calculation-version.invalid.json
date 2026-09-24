@@ -1,0 +1,16 @@
+{
+  "calculationSchemaVersion": "1.0.0",
+  "calculationId": "c1c1c1c1-0000-4000-8000-000000000002",
+  "researchJobId": "11000000-0000-4000-8000-000000000001",
+  "accountId": "aaaaaaaa-0000-4000-8000-000000000001",
+  "formulaName": "demand_index_v1",
+  "formulaVersion": "1.0.0",
+  "inputEvidenceIds": [],
+  "outputMetric": {
+    "type": "demand_index",
+    "value": 72.5,
+    "unit": "index"
+  },
+  "deterministicMethod": "composite scoring of sales rank, review velocity, and search volume signals",
+  "createdAt": "2025-01-10T15:00:00Z"
+}
